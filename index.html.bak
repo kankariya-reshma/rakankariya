@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LIC Insurance</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/camera.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.lighter.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/test1.css">
+<link rel="stylesheet" href="css/test.css">
+<link rel="stylesheet" href="css/blueberry.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.mobile.customized.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/main.js"></script> 
+<script src="js/blueberry.js"></script> 
+
+<!-- Resource jQuery -->
+ 
+<!--[if lt IE 9]>
+    <script src="js/respond-1.1.0.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/html5element.js"></script>
+<![endif]-->
+<script>
+var $j = jQuery.noConflict();
+$j(window).load(function() {
+	$j('.blueberry').blueberry();
+});
+
+</script>
+</head>
+<body>
+
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
+			  <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
+			  <li><a href="#service" class="scroll-link">Services</a></li>
+			  <li><a href="#Portfolio" class="scroll-link">Portfolio</a></li>
+			  <li><a href="#team" class="scroll-link">Testimonial</a></li>
+			  <li><a href="#contact" class="scroll-link">Contact</a></li>
+			</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+    <div class="container">
+      <div class="hero_section">
+        <div class="row">
+          
+           
+              <div class="blueberry">
+			 <ul class="slides">
+			 <li><img src="img/slider-1.png" /></li>
+			 <li><img src="img/slider-4.png" /></li>
+			 <li><img src="img/slider-3.jpg" /></li>
+			 <li><img src="img/slider-6.png" /></li>
+			 <li><img src="img/slider-7.jpg" /></li>
+			 <li><img src="img/slider-8.jpg" /></li>
+			</ul>
+		 </div>
+        
+     
+      </div>
+    </div>
+  </div>
+</section>
+<!--Hero_Section--> 
+
+<section id="aboutUs"><!--Aboutus-->
+<div class="inner_wrapper">
+  <div class="container">
+  <div class="section-title">
+    <h2>About Us</h2>
+  <div>
+    <div class="inner_section">
+	<div class="row">
+      <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-12 pull-right"><!--<img src="img/aboutus.png" class="img-circle delay-03s animated wow zoomIn" alt="">--></div>
+      	<div class=" col-lg-7 col-md-7 col-sm-7 col-xs-12 pull-left">
+        	<div class=" delay-01s animated fadeInDown wow animated" >
+			<p style="font-size:20px;">Mrs.Reshma Kankariya is leading financial advisor.Well known expertize in Life Insurance Planner in Pune, India.</p>
+			<h1 style="font-size:20px;color:blue">Our Vision</h1>
+			<p  style="font-size:20px;">To be most trusted and prefer Life Insurance Advisor.
+			 Understanding the needs of customer and to give suitable solution.</p>
+			 <h1 style="font-size:20px;color:blue">Our Vaules</h1>
+			 <p style="font-size:20px;">Need Based Solutions</p>
+			 <p style="font-size:20px;">Quality and Returns</p>
+</div>
+<div class="work_bottom"><a href="#contact" class="contact_btn">Contact Us</a> </div>       
+	   </div>
+      	
+      </div>
+	  
+      
+    </div>
+  </div> 
+  </div>
+</section>
+<!--Aboutus--> 
+
+
+<!--Service-->
+<section  id="service">
+  <div class="container">
+   <div class="section-title">
+    <h2>Our Services</h2>
+	<marquee style="color:blue;font-size:25px;">Website is Under Developement.</marquee>
+	</div>
+    <div class="service_wrapper">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><img src="img/child.png"><i></i></span> </div>
+            <h3 class="animated fadeInUp wow">Child Future</h3>
+            <p class="animated fadeInDown wow">Help childs dream come true irrespective of life's uncertainties.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">			
+          <div class="service_block">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><img src="img/retirement_icon.png"></span> </div>
+            <h3 class="animated fadeInUp wow">Happy Retirement</h3>
+            <p class="animated fadeInDown wow">Plan life after work without compromising on living standards.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">
+          <div class="service_block">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img src="img/health.png"></span> </div>
+            <h3 class="animated fadeInUp wow">Health</h3>
+            <p class="animated fadeInDown wow">Protect against unforeseen and prolonged illness.</p>
+          </div>
+        </div>
+      </div>
+	   </div>
+	   <div class="row"> 
+        <div class="col-lg-4">
+          <div class="service_block">
+            <div class="service_icon delay-03s animated wow  zoomIn"> <span><img src="img/protection.png"></span> </div>
+            <h3 class="animated fadeInUp wow">Family Protection Plans</h3>
+            <p class="animated fadeInDown wow" >Protect family against unexpected setbacks with income replacement.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">			
+          <div class="service_block">
+            <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><img src="img/unitlink.png"></span> </div>
+            <h3 class="animated fadeInUp wow">Wealth Enhancement</h3>
+            <p class="animated fadeInDown wow">Maximize your investment to achieve specific goals.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 borderLeft">
+          <div class="service_block">
+            <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><img src="img/wealth.png"></span> </div>
+            <h3 class="animated fadeInUp wow">Unit Link</h3>
+            <p class="animated fadeInDown wow">With ULIP enjoy rich benifit of market linked returns.</p>
+          </div>
+        </div>
+      </div>
+	   </div>
+  </div>
+</section>
+<!--Service-->
+
+
+
+
+<!-- Portfolio -->
+<section id="Portfolio" class="content"> 
+  
+  <!-- Container -->
+  <div class="container portfolio_title"> 
+    
+    <!-- Title -->
+    <div class="section-title">
+      <h2>Portfolio</h2>
+    </div>
+    <!--/Title --> 
+    
+  </div>
+  <!-- Container -->
+  
+  <div class="portfolio-top"></div>
+  
+  <!-- Portfolio Filters -->
+  <div class="portfolio"> 
+    
+    <div id="filters" class="sixteen columns">
+      <ul class="clearfix">
+        <li><a id="all" href="#" data-filter="*" class="active">
+          <h5>All</h5>
+          </a></li>
+        <li><a class="" href="Demo1.html" data-filter=".prototype">	
+          <h5>Child Future</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".design">
+          <h5>Retirement</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".android">
+          <h5>Smart Health Care</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".appleIOS">
+          <h5>Family Protection</h5>
+          </a></li>
+        <li><a class="" href="#" data-filter=".web">
+          <h5>Money Back</h5>
+          </a></li>
+      </ul>
+    </div>
+    <!--/Portfolio Filters --> 
+    
+    <!-- Portfolio Wrapper -->
+    <div class="isotope fadeInLeft animated wow" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper"> 
+      
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   appleIOS isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div>        
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">SMS Mobile App</h4>
+          </div>
+        </div>
+        </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item-->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic2.JPEG" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Finance App</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">GPS Concept</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item--> 
+      
+      <!-- Portfolio Item-->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
+        <div class="portfolio_img"> 
+		<img width="233px" height="217px" src="img/portfolio_pic2.jpg" alt="Portfolio 1"> 
+		</div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Shopping</h4>
+          </div>
+        </div>
+      </div>
+	  <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
+        <div class="portfolio_img"> <img width="233" height="217" src="img/kids-3.png" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Shopping</h4>
+          </div>
+        </div>
+      </div>
+	   <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
+        <div class="portfolio_img"> <img width="233" height="217" src="img/kids4.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Shopping</h4>
+          </div>
+        </div>
+      </div>
+	  
+	   <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  android  prototype web isotope-item">
+        <div class="portfolio_img"> <img width="233" height="217" src="img/kids-6.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Shopping</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Managment</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">iPhone</h4>
+          </div>
+        </div>
+      </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item  -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design web isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+            <h4 class="project_name">Nexus Phone</h4>
+          </div>
+        </div>
+       </div>
+      <!--/Portfolio Item --> 
+      
+      <!-- Portfolio Item -->
+      <div style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   android isotope-item">
+        <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
+        <div class="item_overlay">
+          <div class="item_info"> 
+				<h4 class="project_name">Android</h4>
+          </div>
+        </div>
+        </a> </div>
+      <!--/Portfolio Item --> 
+      
+    </div>
+    <!--/Portfolio Wrapper --> 
+    
+  </div>
+  <!--/Portfolio Filters -->
+  
+  <div class="portfolio_btm"></div>
+  
+  
+  <div id="project_container">
+    <div class="clear"></div>
+    <div id="project_data"></div>
+  </div>
+ 
+  
+</section>
+<!--/Portfolio --> 
+<section class="page_section team" id="team"><!--main-section team-start-->
+  <div class="container">
+   <div class="section-title">
+    <h2>Testimonial</h2>
+	</div>
+<div class="cd-testimonials-wrapper cd-container">
+	<ul class="cd-testimonials">
+		<li>
+			<p>Reshma is LIC financial advisor with fulfilled all client requirement and gives suitable plan.</p>
+			<div class="cd-author">
+				<img src="img/prajyot.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>Prajyot</li>
+					<li>Digivault Technology</li>
+				</ul>
+			</div>
+		</li>
+
+		<li>
+			<p>Reshma is a sound financial advisor, she demonstrates very high degree of trust and integrity.
+Her ability to understand client's requirement and stitch a suitable options is commendable.
+She has vast knowledge of a personal finance and insurance. I would recommend Reshma for insurance and portfolio management.</p>
+			<div class="cd-author">
+				<img src="img/vijay.jpg" alt="Author image">
+				<ul class="cd-author-info">
+					<li>Vijay Amrutkar</li>
+					<li>Designer, CodyHouse</li>
+				</ul>
+			</div>
+		</li>
+
+		<li>
+			<p>Reshma's suggestion to my retirement planning was much focused to my lifestyle. Appreciate her customer oriended suggestions. </p>
+			<div class="cd-author">
+				<img src="img/team_pic2.png" alt="Author image">
+				<ul class="cd-author-info">
+					<li>Anand</li>
+					<li>Software Enginner, 3dPLM</li>
+				</ul>
+			</div>
+		</li>
+		
+	</ul> <!-- cd-testimonials -->
+
+	
+</div> <!-- cd-testimonials-wrapper -->
+
+</section>
+<!--/Team-->
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-4">
+           
+          </div>
+          <div class="col-lg-4">
+          
+          </div>
+        </div>
+      </div>
+      <div class="row">
+ 
+        <div class="col-lg-12 wow fadeInLeft delay-06s">
+		  <div style="float:right" width="500">
+          <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-video" data-allowfullscreen="1" data-href="/330964223689353/videos/vb.330964223689353/706339936151778/?type=1"><div class="fb-xfbml-parse-ignore">
+		  <blockquote cite="https://www.facebook.com/330964223689353/videos/706339936151778/"></blockquote></div></div>
+		  </div>
+          <div class="form" >
+            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" type="submit" value="send message">
+          </div>
+		  
+        </div>
+		
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © 2015,Designed by<a href="http://www.rakankariya.co.in">Prajyot</a>.</span>
+        <a href="#" style="float:right" ><img src="img/Twitter.png"/></a>
+		<a href="#" style="float:right"><img src="img/linkedin.png" /></a>
+		<a href="#" style="float:right"><img src="img/facebook.png" /></a>
+												
+	
+	</div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
